@@ -2,3 +2,34 @@
 @import url("styles/fonts.css");
 @import url("styles/variables.css");
 @import url("styles/attribution.css");
+
+h1, h2, h3 {
+  font-family: "Young Serif", serif;
+}
+
+p, li, table {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  color: var(--wenge-brown);
+}
+
+h1 {
+  color: var(--dark-charcoal);
+}
+
+h3 {
+  color: var(--dark-raspberry);
+}
+
+h2, span {
+  color: var(--nutmeg);
+}
+
+hr {
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
