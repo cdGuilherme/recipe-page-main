@@ -3,11 +3,11 @@
 @import url("styles/variables.css");
 @import url("styles/attribution.css");
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "Young Serif", serif;
 }
 
-p, li, table {
+p, h3, li, table {
   font-family: "Outfit", sans-serif;
 }
 
@@ -16,6 +16,7 @@ body {
 }
 
 h1 {
+  font-size: 2rem;
   color: var(--dark-charcoal);
 }
 
@@ -32,4 +33,12 @@ hr {
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
+}
+
+article {
+  padding: 2rem;
+}
+
+#preparation {
+  padding: 1rem;
 }
