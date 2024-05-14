@@ -7,6 +7,19 @@
 /* Page Styling */
 /* ------------ */
 
+body {
+  background-color: var(--eggshell);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+main {
+  background-color: var(--white);
+}
+
 hr {
   border-top: 1px solid var(--light-grey);
   border-bottom: 0;
@@ -139,4 +152,25 @@ table td {
 table td:last-of-type {
   padding: 0;
   padding-left: 0.5rem;
+}
+
+/* ----------- */
+/* Media Query */
+/* ----------- */
+
+@media screen and (min-width: 736px) {
+  .card-top-margin, .card-bottom-margin {
+    height: calc((100svw - 736px)/2);
+    max-height: 8rem;
+  }
+
+  main {
+    width: 736px;
+    padding: 2.5rem;
+  }
+
+  article {
+    margin-top: 2rem;
+    padding: 0;
+  }
 }
