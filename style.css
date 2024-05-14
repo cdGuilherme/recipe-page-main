@@ -167,10 +167,15 @@ table td:last-of-type {
   main {
     width: 736px;
     padding: 2.5rem;
+    border-radius: 20px;
   }
 
   article {
     margin-top: 2rem;
     padding: 0;
+  }
+
+  img {
+    border-radius: 10px;
   }
 }
