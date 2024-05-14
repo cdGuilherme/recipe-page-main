@@ -81,18 +81,8 @@ ol {
   padding-left: 1.5rem;
 }
 
-/* https://stackoverflow.com/questions/40320541/how-to-align-marker-to-center-of-the-image-lists-html */
-#preparation li, #ingredients li {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
-
-#preparation li:before, #ingredients li:before {
-  content: "●";
-  font-size: 0.5rem;
-  border-radius: 50%;
-  margin-right: 1.5rem;
+ol li {
+  padding-left: 1rem;
 }
 
 li:before {
@@ -106,4 +96,18 @@ li:before {
 ol li::marker {
   color: var(--nutmeg);
   font-weight: bold;
+}
+
+/* https://stackoverflow.com/questions/40320541/how-to-align-marker-to-center-of-the-image-lists-html */
+#preparation li, #ingredients li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#preparation li:before, #ingredients li:before {
+  content: "●";
+  font-size: 0.5rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
 }
