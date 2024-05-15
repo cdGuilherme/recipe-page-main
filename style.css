@@ -8,12 +8,11 @@
 /* ------------ */
 
 body {
-  background-color: var(--eggshell);
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100svh;
 }
 
 main {
@@ -37,7 +36,9 @@ article {
   padding: 1.5rem;
 }
 
-#ingredients, #instructions, #nutrition {
+#ingredients,
+#instructions,
+#nutrition {
   display: grid;
   row-gap: 1.25rem;
 }
@@ -55,7 +56,8 @@ h1, h2 {
   font-family: "Young Serif", serif;
 }
 
-p, h3, li, table {
+p, h3,
+li, table {
   font-family: "Outfit", sans-serif;
 }
 
@@ -73,15 +75,21 @@ h3 {
   color: var(--dark-raspberry);
 }
 
-h2, .nutrition-values {
+h2,
+.nutrition-values {
   color: var(--nutmeg);
+}
+
+.nutrition-values {
+  font-weight: 700;
 }
 
 /* ------------- */
 /* Lists Styling */
 /* ------------- */
 
-ul, ol {
+ul,
+ol {
   display: grid;
   row-gap: 0.5rem;
 }
@@ -112,13 +120,15 @@ ol li::marker {
 }
 
 /* https://stackoverflow.com/questions/40320541/how-to-align-marker-to-center-of-the-image-lists-html */
-#preparation li, #ingredients li {
+#preparation li,
+#ingredients li {
   list-style-type: none;
   display: flex;
   align-items: center;
 }
 
-#preparation li:before, #ingredients li:before {
+#preparation li:before,
+#ingredients li:before {
   content: "●";
   font-size: 0.5rem;
   border-radius: 50%;
@@ -159,9 +169,10 @@ table td:last-of-type {
 /* ----------- */
 
 @media screen and (min-width: 736px) {
-  .card-top-margin, .card-bottom-margin {
-    height: calc((100svw - 736px)/2);
-    max-height: 8rem;
+  /* https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css */
+  body {
+    background-color: var(--eggshell);
+    padding: min(calc((100svw - 736px) / 2), 8rem); /* min(PREFERRED, MAXIMUM) */
   }
 
   main {
