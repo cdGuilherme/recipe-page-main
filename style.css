@@ -30,17 +30,19 @@ article {
   padding: 2rem;
 }
 
+section {
+  display: grid;
+  row-gap: 1.25rem;
+}
+
 #preparation {
   display: grid;
   row-gap: 1rem;
   padding: 1.5rem;
 }
 
-#ingredients,
-#instructions,
-#nutrition {
-  display: grid;
-  row-gap: 1.25rem;
+#introduction {
+  row-gap: 2rem;
 }
 
 article {
@@ -52,12 +54,15 @@ article {
 /* Fonts Styling */
 /* ------------- */
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Young Serif", serif;
 }
 
-p, h3,
-li, table {
+p,
+h3,
+li,
+table {
   font-family: "Outfit", sans-serif;
 }
 
