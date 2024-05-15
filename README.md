@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -66,10 +65,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Useful resources that helped me during development:
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- ["A (more) Modern CSS Reset" on Piccalilli](https://piccalil.li/blog/a-more-modern-css-reset/) - CSS Reset.
+- ["how to align marker to center of the image lists HTML" on stackoverflow](https://stackoverflow.com/questions/40320541/how-to-align-marker-to-center-of-the-image-lists-html) - Style list bullets.
+- ["Why TR not taking style?" on stackoverflow](https://stackoverflow.com/questions/2597694/why-tr-not-taking-style) - Style table rows.
+- ["Can we define min-margin and max-margin, max-padding and min-padding in css?" on stackoverflow](https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css) - Define the page margin for desktop devices.
 
 ## Author
 

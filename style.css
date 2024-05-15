@@ -144,6 +144,8 @@ ol li::marker {
 /* Table Styling */
 /* ------------- */
 
+/* https://stackoverflow.com/questions/2597694/why-tr-not-taking-style */
+
 table {
   width: 100%;
   border-collapse: collapse;
