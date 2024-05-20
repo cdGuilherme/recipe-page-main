@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Solution URL](#)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/omelette-recipe-page-challenge-2zgpJRu4at)
 - Live Site URL: [Live Site URL](https://nanikore0.github.io/recipe-page-main/)
 
 ## My process
