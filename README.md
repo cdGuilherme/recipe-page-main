@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/omelette-recipe-page-challenge-2zgpJRu4at)
-- Live Site URL: [Live Site URL](https://nanikore0.github.io/recipe-page-main/)
+- Live Site URL: [Live Site URL](https://github.com/cdGuilherme/recipe-page-main)
 
 ## My process
 
@@ -56,5 +56,5 @@ Useful resources that helped me during development:
 
 ## Author
 
-- Github - [@nanikore](https://github.com/nanikore0)
-- Frontend Mentor - [@nanikore0](https://www.frontendmentor.io/profile/nanikore0)
+- Github - [Guilherme Costa](https://github.com/cdGuilherme)
+- Frontend Mentor - [@cdGuilherme](https://www.frontendmentor.io/profile/cdGuilherme)
